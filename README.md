@@ -36,13 +36,21 @@ Next, we perform Exploratory Data Analysis (EDA) to gain insights from the datas
 
 ### **/Univariate/ Analysis/**
 ![image](https://github.com/user-attachments/assets/434e4d1c-f817-461d-8259-44b988d0340f)
+
 ![image](https://github.com/user-attachments/assets/d0b021e0-9590-4b26-9723-441c1d9707de)
+
 ![image](https://github.com/user-attachments/assets/ebaf9176-f552-4c23-8605-d74d3f9f1221)
+
 ![image](https://github.com/user-attachments/assets/a0c8bb1b-3427-4ce2-8cf9-eb0a780e8c33)
+
 ![image](https://github.com/user-attachments/assets/f18ab235-6081-423a-83be-bf6d616ee1e3)
+
 ![image](https://github.com/user-attachments/assets/00c90895-9b87-47ba-a9d0-fbe895e65ee1)
+
 ![image](https://github.com/user-attachments/assets/7f9d5523-641c-4801-a801-be4c15f64174)
+
 ![image](https://github.com/user-attachments/assets/67268104-decf-42eb-8083-81fd2251d26f)
+
 ![image](https://github.com/user-attachments/assets/0f83a326-9d7e-4cb5-8c5c-724e629f0e22)
 ## **/Observations/**
 
@@ -57,9 +65,13 @@ Next, we perform Exploratory Data Analysis (EDA) to gain insights from the datas
 ---
 ### **/Bivariate/ Analysis/**
 ![image](https://github.com/user-attachments/assets/4ba0c00e-53b8-4296-b0fc-2077fdc2cad2)
+
 ![image](https://github.com/user-attachments/assets/bbddd3d7-bdf9-451b-a48f-1103bd5a99e6)
+
 ![image](https://github.com/user-attachments/assets/5a2c4745-268e-49a0-977c-9a8c451b5207)
+
 ![image](https://github.com/user-attachments/assets/b7ed8da6-d11f-4022-b0e0-b3a202733048)
+
 ![image](https://github.com/user-attachments/assets/91808429-ae9e-40fc-9db3-7e85992c489d)
 
 ## **/Observations/**
