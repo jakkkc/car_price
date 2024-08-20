@@ -71,6 +71,7 @@ Models used and their metrics score
 
 ## App
 
+Welcome to our user friendly [app](https://carprice-prediction-dxogxazajkxpll3hllugmn.streamlit.app/)
 
 **App setup Instructions**
 
