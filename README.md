@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-# A Kenyan used Car Price Prediction Model
-
-A Machine Learning Model that gives users  accurate price predictions on used motor vehicles in Kenya  which helps users either budget to  purchase  one or evaluate user's vehicles giving them  accurate prices according to their vehicle features 
-<p>
-<img src="https://github.com/user-attachments/assets/4503cb71-f2af-45f2-90d7-e83cd954ea4d"/>
-=======
 # A Used Car Price Prediction Project
 
-A Machine Learning Model that gives users  accurate used car price predictions  based of the vehicle features
+A Machine Learning Model that gives users  accurate used car price predictions  based on the vehicle features
 <p>
 
-![Red and Black Modern Car Service Poster](https://github.com/user-attachments/assets/382e85c2-6bf7-4a2a-b2f0-a3fc34895693)
-
+![Red and Black Modern Car Service Poster 4](https://github.com/user-attachments/assets/121ebc40-8d71-4fa5-bf20-2ae010cf6e09)
 
 ## Project Overview
 The Kenyan used car market, once dominated by new vehicles, experienced a significant shift in the 1990s due to economic liberalization, leading to an influx of used cars, primarily from Japan. Today, used cars account for about 80% of vehicle sales in Kenya, driven by their affordability. 
@@ -19,7 +11,7 @@ The Kenyan used car market, once dominated by new vehicles, experienced a signif
 Accurately estimating used car prices in Kenya is challenging due to variables like age, mileage, and vehicle condition. This project aims to develop a machine learning model to predict used car prices, offering a reliable, data-driven tool for buyers, sellers, and businesses in the Kenyan market.
 
 ## Problem Statement
-The lack of a dependable, data-driven methodS for predicting used car prices in the Kenya market leading to inefficiencies , uncertainties, mispricing, financial losses and reduced trust in the market.
+The lack of a dependable, data-driven method for predicting used car prices in the Kenya market leads to inefficiencies, uncertainties, mispricing, financial losses and reduced trust in the market.
 
 ## Objectives
 -
@@ -38,14 +30,14 @@ To analyze the most common features in the dataset.
 ## **Success Criteria**
 Achieving an R-squared value of 0.8, indicating the model explains 80% of the variance in the target variable.
 
-Maintaining a low Mean Absolute Error (MAE),which  reflecting a minimal average prediction error.
+We are maintaining a low Mean Absolute Error (MAE), which  reflects a minimal average prediction error.
 
 ## Constraints
 - Limited availability of Kenyan-specific data for effective model training.
 ---
 ## Project data
 
-The dataset has 6,019 entries sourced from local car bazars and showrooms,containig vehiclles manufactured up to 2017, with details on vehicle name, year, mileage, fuel type, transmission, engine, power,seats and price. This dataset forms the basis for our predictive model and offers insights into the Kenyan used car market.
+The dataset has 6,019 entries sourced from local car bazaars and showrooms, containing vehicles manufactured up to 2017, with details on vehicle name, year, mileage, fuel type, transmission, engine, power, seats, and price. This dataset forms the basis for our predictive model and offers insights into the Kenyan used car market.
 
 ---
 ## Modelling and Evaluation
@@ -78,7 +70,7 @@ Models used and their metrics score
 
 ## App
 
-Welcome to our user friendly [app](https://carprice-prediction-dxogxazajkxpll3hllugmn.streamlit.app/)
+Welcome to our user-friendly [app](https://carprice-prediction-dxogxazajkxpll3hllugmn.streamlit.app/)
 
 **App setup Instructions**
 
@@ -94,7 +86,7 @@ Welcome to our user friendly [app](https://carprice-prediction-dxogxazajkxpll3hl
     pip install streamlit
     ```
 
-* To run the app locally run the following on terminal:
+* To run the app locally run the following on the terminal:
     ```
     streamlit run deployment/app.py
 ---
@@ -106,4 +98,4 @@ Welcome to our user friendly [app](https://carprice-prediction-dxogxazajkxpll3hl
 * [Marion Achieng](https://github.com/marionrion)
 * [Benedict Kuloba](https://github.com/myles-G)
 
->>>>>>> f192cf8146f75157f7b673c2d8eeba4127b6444f
+
