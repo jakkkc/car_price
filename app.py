@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 # Load the trained model, OHE, and scaler
-with open('regressor_final.pkl', 'rb') as file:
+with open('Catboost.pkl', 'rb') as file:
     model = pickle.load(file)
 
 with open('ohe.pkl', 'rb') as file:
