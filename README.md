@@ -44,18 +44,17 @@ The dataset has 6,019 entries sourced from local car bazaars and showrooms, cont
 
 Models used and their metrics score
 
-| Model                  | R-Squared | MAE score   |
-|------------------------|-----------|-------------|
-| Linear Regression     | 0.58      | 653,141.09  |
-| Ridge Regression       | 0.73      | 435,767.83  |
-| Lasso Regression       | 0.78      | 408,372.36  |
-| Elastic Net            | 0.41      | 626,174.62  |
-| Random Forest          | 0.86      | 287,296.62  |
-| KNN Regressor          | 0.81      | 345,368.21  |
-| XGBoost                | 0.88      | 296,930.22  |
-| CatBoost               | 0.88      | 311,516.22  |
-| SVR                    | -0.11     | 1,001,403.48|
----
+|MODEL	           |R SQUARED	    |MAE              |	
+|------------------|----------------|-----------------|
+|Catboost regression |	0.87        |  298328.91      |
+|XGBoost regression  |	0.86        |  302261.48	  |
+|Random regression  |    0.85       |  315234.6	  |	     
+|Knn regression	   |    0.84       |  337761.66	  |	    	     
+|Lasso regression  |    0.63        |  5492235.34      |         
+|Ridge regression   |    0.62       |  550384.84      |         
+|ElasticNet         |     0.29      |   678576.8              |
+|Linear regression   |    -2.37     |    3632345302271830.06             |
+
 ## Modules used
 
 ![numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
