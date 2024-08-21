@@ -37,12 +37,11 @@ if page == "Predict Price":
     # Input fields for user input
     Brand = st.selectbox("Car Brand", brand_list)
     Year = st.slider("Year of Manufacture", 1990, 2024, 2015)
-    Kilometers_Driven = st.slider("Mileage", 0, 300000, 50000)
+    Mileage = st.slider("Mileage", 0, 300000, 50000)
     Fuel_Type = st.selectbox("Fuel Type", ("Petrol", "Diesel", "CNG"))
     Transmission = st.selectbox("Transmission", ("Manual", "Automatic"))
     Use = st.selectbox("Use", ("Foreign", "Local"))
     Engine = st.slider("Engine Capacity (cc)", 800, 5000, 1500)
-    Power = st.slider("Horse Power (bhp)", 50, 400, 100)
     Seats = st.slider("Seats", 2, 7, 5)
 
     # Predict button
@@ -54,9 +53,8 @@ if page == "Predict Price":
             "Transmission": Transmission,
             "Use": Use,
             "Year": Year,
-            "Kilometers_Driven": Kilometers_Driven,
+            "Mileage": Mileage,
             "Engine": Engine,
-            "Power": Power,
             "Seats": Seats
         }
 
@@ -66,7 +64,7 @@ if page == "Predict Price":
 
         # Separate the categorical and numerical columns
         categorical_features = ['Fuel_Type', 'Transmission', 'Use', 'Brand']
-        numerical_features = ["Year", "Kilometers_Driven", "Engine", "Power", "Seats"]
+        numerical_features = ["Year", "Mileage", "Engine", "Seats"]
 
         # Extract categorical and numerical data
         categorical_data = features_df[categorical_features]
