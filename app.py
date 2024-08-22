@@ -129,9 +129,18 @@ elif page == "Meet the Team":
     # Add the animated icon (GIF) at the top
     st.image('customer.gif', width=150)
     
+    st.subheader("Jackson Mwaniki - Scrum Master")
+    st.image('Jackson.jpeg', width=150)
+    st.markdown("""
+    Jackson ensures smooth and efficient project delivery by keeping the team focused and on track.
+    - **LinkedIn**: [Jackson Mwaniki](https://www.linkedin.com/in/jackson-mwaniki/)
+    - **GitHub**: [jakkkc](https://github.com/jakkkc)
+    - **Email**: [jacmwaniki@gmail.com](mailto:jacmwaniki@gmail.com)
+    """)
+    
     st.subheader("Marion Achieng - Data Narrative Architect")
     st.markdown("""
-   Marion excels at distilling complex business needs into clear, strategic overviews. Her expertise lies in crafting concise, data narratives that align  business goals with actionable insights, ensuring every stakeholder is on the same page.
+    Marion excels at distilling complex business needs into clear, strategic overviews. Her expertise lies in crafting concise, data narratives that align business goals with actionable insights, ensuring every stakeholder is on the same page.
     - **LinkedIn**: [Marion Achieng](https://www.linkedin.com/in/marion-achieng-0747712a3/)
     - **GitHub**: [marionrion](https://github.com/marionrion)
     - **Email**: [marionachieng@gmail.com](mailto:marionachieng@gmail.com)
@@ -155,15 +164,6 @@ elif page == "Meet the Team":
     - **Email**: [mwangigerald436@gmail.com](mailto:mwangigerald436@gmail.com)
     """)
 
-    st.subheader("Jackson Mwaniki - Scrum Master")
-    st.image('Jackson.jpeg', width=150)
-    st.markdown("""
-    Jackson ensures smooth and efficient project delivery by keeping the team focused and on track.
-    - **LinkedIn**: [Jackson Mwaniki](https://www.linkedin.com/in/jackson-mwaniki/)
-    - **GitHub**: [jakkkc](https://github.com/jakkkc)
-    - **Email**: [jacmwaniki@gmail.com](mailto:jacmwaniki@gmail.com)
-    """)
-
     st.subheader("Mwaura Njung'e - App Deployment Wizard")
     st.image('Mwaura.jpeg', width=150)
     st.markdown("""
@@ -172,6 +172,7 @@ elif page == "Meet the Team":
     - **GitHub**: [TyrionCodister](https://github.com/TyrionCodister)
     - **Email**: [kelvinmwaura.edu@gmail.com](mailto:kelvinmwaura.edu@gmail.com)
     """)
+
 
 elif page == "Feedback":
     st.header("We Value Your Feedback")
