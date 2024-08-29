@@ -69,7 +69,7 @@ Models used and their metrics score
 
 ## App
 
-Welcome to our user-friendly [app](https://carprice-prediction-dxogxazajkxpll3hllugmn.streamlit.app/)
+Welcome to our user-friendly app
 
 **App setup Instructions**
 
@@ -87,7 +87,7 @@ Welcome to our user-friendly [app](https://carprice-prediction-dxogxazajkxpll3hl
 
 * To run the app locally run the following on the terminal:
     ```
-    streamlit run deployment/app.py
+    streamlit run app.py
 ---
 ## Team Members
 
